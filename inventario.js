@@ -63,6 +63,7 @@ class Inventario{
        
       
     }
+<<<<<<< HEAD
     insertar(posicion,nuevo){
         if (posicion == 1) {
             if (this.primero == null) {
@@ -127,7 +128,7 @@ class Inventario{
                 return `${listarInversoRecursivo(producto.next)}+ '.'+${producto.info()}`;
             }
         }
-    }
+
 }
 //  let p1 = new Producto(123,"Coca cola",10,20);
 //  let p2 = new Producto(1234,"Mantecadas",1,24);
